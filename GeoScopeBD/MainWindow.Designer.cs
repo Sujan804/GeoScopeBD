@@ -29,18 +29,18 @@
 		private void InitializeComponent()
 		{
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-			appManager1 = new DotSpatial.Controls.AppManager();
+			AppManager = new DotSpatial.Controls.AppManager();
 			DockpanelMain = new WeifenLuo.WinFormsUI.Docking.DockPanel();
 			SuspendLayout();
 			// 
-			// appManager1
+			// AppManager
 			// 
-			appManager1.Directories = (List<string>)resources.GetObject("appManager1.Directories");
-			appManager1.DockManager = null;
-			appManager1.HeaderControl = null;
-			appManager1.Legend = null;
-			appManager1.Map = null;
-			appManager1.ProgressHandler = null;
+			AppManager.Directories = (List<string>)resources.GetObject("AppManager.Directories");
+			AppManager.DockManager = null;
+			AppManager.HeaderControl = null;
+			AppManager.Legend = null;
+			AppManager.Map = null;
+			AppManager.ProgressHandler = null;
 			// 
 			// DockpanelMain
 			// 
@@ -65,7 +65,7 @@
 		}
 
 		#endregion
-		private DotSpatial.Controls.AppManager appManager1;
+		private DotSpatial.Controls.AppManager AppManager;
 		private WeifenLuo.WinFormsUI.Docking.DockPanel DockpanelMain;
 	}
 }

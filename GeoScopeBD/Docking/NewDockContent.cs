@@ -13,6 +13,7 @@ namespace GeoScopeBD.Docking
 		public NewDockContent()
 		{
 			CloseButton = false;
+
 		}
 		protected override void OnFormClosing(FormClosingEventArgs e)
 		{
@@ -23,7 +24,13 @@ namespace GeoScopeBD.Docking
 
 		private void InitializeComponent()
 		{
-
+			SuspendLayout();
+			// 
+			// NewDockContent
+			// 
+			ClientSize = new Size(282, 253);
+			Name = "NewDockContent";
+			ResumeLayout(false);
 		}
 	}
 }

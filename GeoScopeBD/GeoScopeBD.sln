@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeoScopeBD", "GeoScopeBD.csproj", "{7D0448ED-7F75-4AAC-B88C-D403A5C5A65C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSBD.Docking", "..\GSBD.Docking\GSBD.Docking.csproj", "{4A9899E3-48FA-49A1-952F-F52CD6572DEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7D0448ED-7F75-4AAC-B88C-D403A5C5A65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D0448ED-7F75-4AAC-B88C-D403A5C5A65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D0448ED-7F75-4AAC-B88C-D403A5C5A65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9899E3-48FA-49A1-952F-F52CD6572DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9899E3-48FA-49A1-952F-F52CD6572DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9899E3-48FA-49A1-952F-F52CD6572DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9899E3-48FA-49A1-952F-F52CD6572DEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
