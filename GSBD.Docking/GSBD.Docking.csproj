@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="As.Fork.NetCore.DockPanelSuite.ThemeVS2015" Version="3.2.2" />
+    <PackageReference Include="DockPanelSuite" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>

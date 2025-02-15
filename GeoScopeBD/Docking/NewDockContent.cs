@@ -9,7 +9,7 @@ namespace GeoScopeBD.Docking
 {
 	public class NewDockContent : DockContent
 	{
-		
+
 		public NewDockContent()
 		{
 			CloseButton = false;
@@ -19,6 +19,11 @@ namespace GeoScopeBD.Docking
 			bool cancel = false;
 			e.Cancel = true;
 			base.OnFormClosing(e);
+		}
+
+		private void InitializeComponent()
+		{
+
 		}
 	}
 }
